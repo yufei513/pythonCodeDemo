@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 复制应用代码
-COPY app.py /app3/
+COPY app.py /app2/
 
 # 运行应用
-CMD ["python", "/app/app.py"]
+CMD ["python", "/app2/app.py"]
