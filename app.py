@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "If you see me on the web page, prove that you have completed all the tasks"
+    return "v2"
 #def check_network():
 #    try:
 #        result = subprocess.run(
