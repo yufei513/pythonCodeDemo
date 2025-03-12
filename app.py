@@ -22,6 +22,6 @@ if __name__ == "__main__":
     #if not check_network():
     #    print("我没有网络，如果我无法访问baidu.com,我就会一直拒绝启动")
     #    sys.exit(1)
-    print("tips: 我在容器内监听的端口是80")
-    app.run(host="0.0.0.0", port=80)
+    print("tips: 我在容器内监听的端口是82")
+    app.run(host="0.0.0.0", port=82)
 
